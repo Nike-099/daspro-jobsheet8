@@ -8,7 +8,7 @@ public class NilaiKelompok25 {
         System.out.print("Masukkan jumlah penilai : ");
         int jumlahPenilai = sc.nextInt();
 
-        if (jumlahKelompok <D= 0 || jumlahPenilai <= 0) {
+        if (jumlahKelompok <= 0 || jumlahPenilai <= 0) {
             System.out.println("Jumlah kelompok dan penilai harus > 0. ");
         } else {
             int nomorKelompok = 1;
